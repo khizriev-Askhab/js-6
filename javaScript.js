@@ -51,7 +51,7 @@
              return( this.weight/3.42);}
            
            
-    console.log(man.getIMT())
+    console.log(man.getIMT());
             
               
            
@@ -64,5 +64,6 @@
              return`избытачный вес`
             if( getIMT > 29)
             return `ожирение `
+            console.log(getIMT.imtResult());
            }
            console.log(getIMT.imtResult());
